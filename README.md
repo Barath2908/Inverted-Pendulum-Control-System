@@ -39,12 +39,16 @@ The model uses:
 4. Run the simulation.
 
 ## Simulink Model
+![image](https://github.com/user-attachments/assets/6bf364e1-7596-42bd-9cc9-c24ff4c770eb)
+![image](https://github.com/user-attachments/assets/21b569bc-9f46-42d0-83fc-c4e223229d85)
+
 The Simulink model implements the dynamics of the inverted pendulum and the control system. It includes:
 - Plant Model: Describes the physical behavior of the cart and pendulum.
 - State Feedback Controller: Computes the required force to stabilize the pendulum.
 - Disturbance Input: Allows testing responses to small nudges.
 
 ### Missing Components
+![image](https://github.com/user-attachments/assets/6e931cf7-57e8-4c39-9557-65c76f3bf232)
 Before simulation, ensure you have the following:
 - System dynamics equations.
 - Initial conditions for state variables.
@@ -59,6 +63,7 @@ Before simulation, ensure you have the following:
    - Designs a robust controller based on frequency domain characteristics.
 
 ## Results
+![image](https://github.com/user-attachments/assets/3cbfd6fe-b58a-467b-8c01-5d04b4bd1ed4)
 1. **Full-State Feedback**:
    - Successfully balances the pendulum.
    - Responds quickly to disturbances with minimal oscillations.
@@ -69,11 +74,10 @@ Before simulation, ensure you have the following:
 Graphs for each state variable (theta, theta_dot, x, x_dot) are generated.
 
 ## Extra Credit Implementations
+![image](https://github.com/user-attachments/assets/6cc3ccf6-806b-4fab-9e85-cda433bf291e)
 1. **LQR Controller**:
    - Achieved smoother balancing performance.
    - Reduced control effort compared to full-state feedback.
-2. **LSD Controller**:
-   - Demonstrated high robustness against disturbances.
 
 ## References
 - Lecture Notes on Control Theory, Columbia University.
