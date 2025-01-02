@@ -1,6 +1,6 @@
 # Inverted Pendulum Control System
 
-This repository implements a control system for balancing an inverted pendulum mounted on a cart. It includes simulations in MATLAB/Simulink, covering full-state feedback, Linear Quadratic Regulator (LQR), and Loop Shaping Design (LSD) controllers.
+This repository implements a control system for balancing an inverted pendulum mounted on a cart. It includes simulations in MATLAB/Simulink, covering full-state feedback, Linear Quadratic Regulator (LQR).
 
 ## Table of Contents
 1. [Overview](#overview)
